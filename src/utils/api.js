@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://stageapi.monkcommerce.app/task/products/search';
+const BASE_URL = 'http://stageapi.monkcommerce.app/task/products/search?search=Hat&page=2&limit=1';
 
 /**
  * Fetches products from the API with optional search, page, and limit.
